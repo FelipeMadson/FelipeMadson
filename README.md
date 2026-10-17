@@ -79,6 +79,22 @@ I prioritize standard library capabilities, zero-dependency runtimes, strict typ
 
 ---
 
+
+### 📚 Engineering Handbooks & Architecture Manuals
+
+#### [Software Engineering Handbook](https://github.com/FelipeMadson/software-engineering-handbook)
+> **In-Depth Architectural Guides, Resilient Distributed Patterns & Verification**  
+> *Stack: TypeScript · Architecture Design · Node.js · Security Verification · GitHub Actions CI*
+
+A published series of comprehensive software engineering handbooks covering production-critical architecture and verified implementations:
+- **Idempotent Queue Architecture:** Deduplication, atomic leases, and outbox patterns.
+- **CRDT Offline-First Synchronization:** Conflict-free replicated state and local-first data stores.
+- **Multitenant Row-Level Security:** PostgreSQL RLS, tenant context isolation, and defense in depth.
+- **Deterministic Dev Environments:** Reproducible toolchains, hermetic builds, and container sandboxes.
+- **Secret Isolation in CI/CD:** Memory-safe vault integrations and leak prevention pipelines.
+
+---
+
 ### Engineering Principles
 
 1. **Deterministic & Local-First:** Systems are designed to function reliably offline, respecting user data privacy and avoiding arbitrary cloud lock-in.
