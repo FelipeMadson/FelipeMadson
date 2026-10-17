@@ -79,6 +79,22 @@ Priorizo recursos nativos da biblioteca padrão, runtimes com zero dependências
 
 ---
 
+
+### 📚 Manuais de Engenharia & Arquitetura de Software
+
+#### [Software Engineering Handbook](https://github.com/FelipeMadson/software-engineering-handbook)
+> **Guias Arquiteturais Aprofundados, Padrões Distribuídos Resilientes & Verificação**  
+> *Stack: TypeScript · Design Arquitetural · Node.js · Verificação de Segurança · GitHub Actions CI*
+
+Série publicada de manuais práticos de engenharia de software cobrindo tópicos de missão crítica com implementações verificadas:
+- **Arquitetura de Filas Idempotentes:** Deduplicação, leases atômicos e padrões outbox.
+- **Sincronização Offline-First com CRDT:** Estado replicado sem conflitos e persistência local-first.
+- **Segurança Multitenant com Row-Level Security:** PostgreSQL RLS, isolamento de contexto e defesa em profundidade.
+- **Ambientes Determinísticos de Desenvolvimento:** Toolchains reproduzíveis, builds herméticos e sandboxes.
+- **Isolamento de Segredos em CI/CD:** Integração segura com cofres em memória e prevenção de vazamentos.
+
+---
+
 ### Princípios de Engenharia
 
 1. **Determinismo & Local-First:** Sistemas projetados para operar de forma confiável localmente, preservando a privacidade dos dados e evitando dependência arbitrária de nuvens comerciais.
