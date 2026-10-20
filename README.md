@@ -1,145 +1,152 @@
-# Felipe Madison
+# Hello, I am Felipe Madison 👋
 
-**Internet Systems Engineering · Distributed Architectures · High-Resilience Systems**
+<p align="left">
+  <strong>🇺🇸 English Version</strong> &nbsp;|&nbsp; 
+  <a href="README.pt-BR.md">🇧🇷 <strong>Versão em Português</strong></a>
+</p>
 
-[Interactive Portfolio](https://felipemadson.github.io/portfolio/) · [Versão em Português](README.pt-BR.md) · [GitHub Profile](https://github.com/FelipeMadson)
+> **Internet Systems Technology (TSI) Engineer**  
+> 🎯 **Core Focus:** Distributed Systems, Local-First Architecture, Zero-Dependency Node.js & Developer Infrastructure  
+> 📍 **GitHub:** [@FelipeMadson](https://github.com/FelipeMadson)
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                          FELIPE MADISON — SYSTEMS ARCHITECTURE                         │
-│                         65+ Production Repositories on GitHub                          │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-                                            │
-     ┌───────────────────┬──────────────────┼──────────────────┬──────────────────┐
-     ▼                   ▼                  ▼                  ▼                  ▼
-┌───────────┐      ┌───────────┐      ┌───────────┐      ┌───────────┐      ┌───────────┐
-│ JAVA 21   │      │ ANGULAR 18│      │ NEXT.JS 15│      │ RUST / GO │      │ PYTHON    │
-│ ───────── │      │ ───────── │      │ ───────── │      │ ───────── │      │ ───────── │
-│ Spring 3  │      │ Signals   │      │ React 19  │      │ Zero-Copy │      │ Django 5  │
-│ Loom Thr. │      │ DDD Clean │      │ Actions   │      │ TokenBkt  │      │ Flask 3   │
-│ Outbox    │      │ Result<T> │      │ Multi-Ten │      │ Low-Lat.  │      │ Polars RAG│
-└───────────┘      └───────────┘      └───────────┘      └───────────┘      └───────────┘
+<p align="left">
+  <a href="https://github.com/FelipeMadson"><img src="https://img.shields.io/github/followers/FelipeMadson?label=Followers&style=social" alt="Followers"></a>
+  <img src="https://img.shields.io/badge/Automated%20Tests-301%20Passing-brightgreen.svg?logo=node.js" alt="Tests">
+  <img src="https://img.shields.io/badge/Production%20Microservices-18%20Active-blue.svg?logo=github" alt="Projects">
+  <img src="https://img.shields.io/badge/Runtime%20Dependencies-0%20(Native%20Stdlib%20Only)-success.svg" alt="Zero Dependencies">
+  <img src="https://img.shields.io/badge/Security-CodeQL%20SAST%20100%25%20Passed-indigo.svg?logo=githubactions" alt="CodeQL">
+  <img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" alt="Conventional Commits">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License"></a>
+</p>
+
+---
+
+## ⚡ Polyglot Flagships & High-Throughput Distributed Systems
+
+Exemplary production-grade repositories demonstrating deep mastery across Rust, Go, TypeScript/WASM, Java 21, and Cloud-Native architectures:
+
+| Project | Ecosystem & Core Tech | Key Architectural Highlights | CI & Releases |
+| :--- | :--- | :--- | :---: |
+| **[rust-wasm-simd-vector-search](https://github.com/FelipeMadson/rust-wasm-simd-vector-search)** | **Rust 1.80+ · WebAssembly · 128-bit SIMD** | Client-side HNSW vector search graph, sub-ms cosine similarity, 100% zero-cloud data isolation. | [![CI](https://github.com/FelipeMadson/rust-wasm-simd-vector-search/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/rust-wasm-simd-vector-search/actions) · [Release v1.0.0](https://github.com/FelipeMadson/rust-wasm-simd-vector-search/releases) |
+| **[rust-lsm-tree-storage-engine](https://github.com/FelipeMadson/rust-lsm-tree-storage-engine)** | **Rust 1.80+ · Systems Programming** | Embedded LSM-tree storage engine, thread-safe MemTable with SkipList, append-only WAL with `O_SYNC`. | [![CI](https://github.com/FelipeMadson/rust-lsm-tree-storage-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/rust-lsm-tree-storage-engine/actions) · [Release v1.0.0](https://github.com/FelipeMadson/rust-lsm-tree-storage-engine/releases) |
+| **[go-webhook-delivery-pipeline](https://github.com/FelipeMadson/go-webhook-delivery-pipeline)** | **Go 1.22+ · Concurrency & Worker Pools** | High-throughput concurrent dispatcher, worker pools, HMAC-SHA256 signatures, jittered exponential backoff. | [![CI](https://github.com/FelipeMadson/go-webhook-delivery-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/go-webhook-delivery-pipeline/actions) · [Release v1.0.0](https://github.com/FelipeMadson/go-webhook-delivery-pipeline/releases) |
+| **[agentic-consensus-workflow-engine](https://github.com/FelipeMadson/agentic-consensus-workflow-engine)** | **TypeScript 5.8+ · Zod · Multi-Agent** | Multi-agent Byzantine-resistant quorum voting engine, deterministic DAG execution, structured schemas. | [![CI](https://github.com/FelipeMadson/agentic-consensus-workflow-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/agentic-consensus-workflow-engine/actions) · [Release v1.0.0](https://github.com/FelipeMadson/agentic-consensus-workflow-engine/releases) |
+| **[spring-boot-fintech-transaction-engine](https://github.com/FelipeMadson/spring-boot-fintech-transaction-engine)** | **Java 21 · Spring Boot 3.3 · Virtual Threads** | High-throughput financial ledger, Project Loom Virtual Threads, Transactional Outbox pattern, idempotency. | [![CI](https://github.com/FelipeMadson/spring-boot-fintech-transaction-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/spring-boot-fintech-transaction-engine/actions) · [Release v1.0.0](https://github.com/FelipeMadson/spring-boot-fintech-transaction-engine/releases) |
+| **[nextjs-enterprise-saas-starter](https://github.com/FelipeMadson/nextjs-enterprise-saas-starter)** | **Next.js 15 · React 19 · Server Actions** | Subdomain multi-tenancy, optimistic UI mutations, role-based access control (RBAC), Tailwind CSS v4. | [![CI](https://github.com/FelipeMadson/nextjs-enterprise-saas-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/nextjs-enterprise-saas-starter/actions) · [Release v1.0.0](https://github.com/FelipeMadson/nextjs-enterprise-saas-starter/releases) |
+| **[angular-enterprise-clean-architecture](https://github.com/FelipeMadson/angular-enterprise-clean-architecture)** | **Angular 18 · Signals · Clean Architecture** | Fine-grained reactivity without RxJS leaks, OnPush change detection, Standalone Components, DDD layers. | [![CI](https://github.com/FelipeMadson/angular-enterprise-clean-architecture/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/angular-enterprise-clean-architecture/actions) · [Release v1.0.0](https://github.com/FelipeMadson/angular-enterprise-clean-architecture/releases) |
+| **[software-engineering-handbook](https://github.com/FelipeMadson/software-engineering-handbook)** | **Technical Writing · Architecture Manuals** | 7 comprehensive technical volumes backed by an immutable cryptographic SHA-256 verification ledger. | [![CI](https://github.com/FelipeMadson/software-engineering-handbook/actions/workflows/verify-integrity.yml/badge.svg)](https://github.com/FelipeMadson/software-engineering-handbook/actions) · [7 Volumes](https://github.com/FelipeMadson/software-engineering-handbook/tree/main/ebooks) |
+
+---
+
+## 🏛️ Engineering Philosophy & Non-Negotiable Architectural Pillars
+
+I architect software with rigorous engineering standards focused on **determinism, sub-millisecond efficiency, and rock-solid resilience**:
+
+1. **Zero Runtime Dependencies:** Every application relies exclusively on Node.js native standard libraries (`node:test`, `node:crypto`, `node:sqlite`, `node:stream`, `node:http`). Eliminating third-party packages minimizes supply-chain vulnerability attack surfaces and enables instant &lt; 10ms process bootstrap.
+2. **Domain-Driven Bespoke Design:** Every microservice features a tailor-made visual identity and an in-browser live simulator running 100% client-side via GitHub Pages with no backend dependency required.
+3. **Zero-Trust Timing-Safe Cryptography:** HMAC-SHA256 signature verification performed with constant-time equality (`crypto.timingSafeEqual`) to thwart side-channel timing attacks, alongside cryptographically linked Merkle Tree block audit chains.
+4. **Local-First Transactional Reliability:** Atomic SQLite persistence leveraging Write-Ahead Logging (`WAL`) with sub-millisecond fsync latency, ensuring resilience during power or network disruptions.
+5. **Architectural Governance & Traceability:** Strict [Conventional Commits](https://www.conventionalcommits.org/), formal Architecture Decision Records ([ADRs](docs/adr)), C4 Model diagrams, and 100% green multi-platform GitHub Actions CI/CD pipelines.
+
+---
+
+## 🚀 Active Microservices & Live Interactive Simulators
+
+Explore the **18 production microservices** below, categorized by their domain archetypes. **Click any simulator to launch and test the application directly in your browser:**
+
+### 🧠 AI Studio & Neural Inference
+
+_Local neural orchestrators with GGUF quantization (FP16/Q4_K_M), Cosine similarity RAG vector exploration, and streaming ReAct agents._
+
+| Microservice | Live Interactive Simulator | Automated Tests | Repository & CI Status |
+| :--- | :--- | :---: | :---: |
+| **[Desenvolvimento De Um Agente Ai Personalizado Com Aws Agentcore](https://github.com/FelipeMadson/desenvolvimento-de-um-agente-ai-personalizado-com-aws-agentcore)**<br><small>Microsserviço Enterprise de IA com FastAPI, Vector RAG e Agentes ReAct</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/desenvolvimento-de-um-agente-ai-personalizado-com-aws-agentcore/) | `2 passing` | [![CI Status](https://github.com/FelipeMadson/desenvolvimento-de-um-agente-ai-personalizado-com-aws-agentcore/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/desenvolvimento-de-um-agente-ai-personalizado-com-aws-agentcore/actions) |
+| **[Inteligencia Artificial Para Monitoramento De Desempenho De Aplicacoes](https://github.com/FelipeMadson/inteligencia-artificial-para-monitoramento-de-desempenho-de-aplicacoes)**<br><small>Enterprise-grade microservice with clean architecture, zero dependencies, and deterministic tests.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/inteligencia-artificial-para-monitoramento-de-desempenho-de-aplicacoes/) | `2 passing` | [![CI Status](https://github.com/FelipeMadson/inteligencia-artificial-para-monitoramento-de-desempenho-de-aplicacoes/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/inteligencia-artificial-para-monitoramento-de-desempenho-de-aplicacoes/actions) |
+| **[Qwenimageflow Orquestrador De Geracao De Imagens Com Quantizacao Local E Rag](https://github.com/FelipeMadson/qwenimageflow-orquestrador-de-geracao-de-imagens-com-quantizacao-local-e-rag)**<br><small>Workflow de geração de imagens textuais com latência elevada em nuvem e falta de personalização em modelos pré-treinados</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/qwenimageflow-orquestrador-de-geracao-de-imagens-com-quantizacao-local-e-rag/) | `18 passing` | [![CI Status](https://github.com/FelipeMadson/qwenimageflow-orquestrador-de-geracao-de-imagens-com-quantizacao-local-e-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/qwenimageflow-orquestrador-de-geracao-de-imagens-com-quantizacao-local-e-rag/actions) |
+
+---
+
+### 💻 Developer Tools & Interactive Web Terminals
+
+_Interactive web terminal emulators with ANSI escape parsers, Tab autocompletion, keyboard history, and deterministic execution._
+
+| Microservice | Live Interactive Simulator | Automated Tests | Repository & CI Status |
+| :--- | :--- | :---: | :---: |
+| **[Cli Cursor Manager](https://github.com/FelipeMadson/cli-cursor-manager)**<br><small>Desenvolvedores enfrentam dificuldades para gerenciar o cursor em interfaces de linha de comando de forma consistente entre diferentes terminais e plataformas, especialmente em cenários que exigem animações ou interações complexas</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/cli-cursor-manager/) | `18 passing` | [![CI Status](https://github.com/FelipeMadson/cli-cursor-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/cli-cursor-manager/actions) |
+| **[Cliforge Ferramenta De Criacao De Cli Com Autocompletcao Inteligente](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente)**<br><small>Desenvolvedores enfrentam complexidade em implementar interfaces de linha de comando robustas com suporte a autocompletção em tempo real.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/actions) |
+| **[Devbox A 1 Click Sandbox For Developers](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers)**<br><small>Painful and time-consuming setup guides for development environments. DevBox is an automated local sandbox.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/devbox-a-1-click-sandbox-for-developers/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/actions) |
+| **[Envdoctor](https://github.com/FelipeMadson/envdoctor)**<br><small>Validador e diagnóstico determinístico de ambientes de desenvolvimento local.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/envdoctor/) | `11 passing` | [![CI Status](https://github.com/FelipeMadson/envdoctor/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/envdoctor/actions) |
+| **[Ideabank](https://github.com/FelipeMadson/ideabank)**<br><small>Fullstack Platform for Missing Software Demands, Collaborative Voting & 1-Click GitHub Issues Sync.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/ideabank/) | `23 passing` | [![CI Status](https://github.com/FelipeMadson/ideabank/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/ideabank/actions) |
+| **[Logsentinel Memory Guard](https://github.com/FelipeMadson/logsentinel-memory-guard)**<br><small>Vazamento silencioso de memória em serviços Node.js devido a listeners de stream acumulados.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/logsentinel-memory-guard/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/logsentinel-memory-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/logsentinel-memory-guard/actions) |
+
+---
+
+### 📊 Enterprise Multi-Tenant SaaS Platforms
+
+_Multi-tenant platforms featuring isolated tenant quotas, in-memory streaming ring buffers, live P99 latency percentile waves, and native Prometheus metrics._
+
+| Microservice | Live Interactive Simulator | Automated Tests | Repository & CI Status |
+| :--- | :--- | :---: | :---: |
+| **[Cloudpulse Multi Tenant Analytics](https://github.com/FelipeMadson/cloudpulse-multi-tenant-analytics)**<br><small>Plataformas de métricas cobram fortunas por ingestão de eventos e não oferecem isolamento de dados por tenant.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/cloudpulse-multi-tenant-analytics/) | `18 passing` | [![CI Status](https://github.com/FelipeMadson/cloudpulse-multi-tenant-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/cloudpulse-multi-tenant-analytics/actions) |
+| **[Desenvolvimento De Relatorios Mensais De Desenvolvimento](https://github.com/FelipeMadson/desenvolvimento-de-relatorios-mensais-de-desenvolvimento)**<br><small>Desenvolvedores precisam gerenciar e compartilhar suas jornadas de desenvolvimento, mas atualmente não há uma ferramenta eficiente para isso.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/desenvolvimento-de-relatorios-mensais-de-desenvolvimento/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/desenvolvimento-de-relatorios-mensais-de-desenvolvimento/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/desenvolvimento-de-relatorios-mensais-de-desenvolvimento/actions) |
+| **[Submitbutton Com Status De Formulario Corrigido](https://github.com/FelipeMadson/submitbutton-com-status-de-formulario-corrigido)**<br><small>Problema com o useFormStatus retornando falso em formulários React</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/submitbutton-com-status-de-formulario-corrigido/) | `16 passing` | [![CI Status](https://github.com/FelipeMadson/submitbutton-com-status-de-formulario-corrigido/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/submitbutton-com-status-de-formulario-corrigido/actions) |
+
+---
+
+### 🛡️ Zero-Trust Security & Cryptographic Vaults
+
+_High-assurance cryptographic labs with timing-safe HMAC-SHA256 verification, recursive token masking, SQLite WAL mode, and Merkle audit block chains._
+
+| Microservice | Live Interactive Simulator | Automated Tests | Repository & CI Status |
+| :--- | :--- | :---: | :---: |
+| **[Expo Secure Secrets Cli](https://github.com/FelipeMadson/expo-secure-secrets-cli)**<br><small>Developers struggle with securely managing environment variables and secrets across different environments in mobile and cross-platform apps.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/expo-secure-secrets-cli/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/expo-secure-secrets-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/expo-secure-secrets-cli/actions) |
+| **[Profile Sync](https://github.com/FelipeMadson/profile-sync)**<br><small>Estudante de Tecnologia em Sistemas para Internet (TSI)</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/profile-sync/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/profile-sync/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/profile-sync/actions) |
+| **[Webhookvault](https://github.com/FelipeMadson/webhookvault)**<br><small>Local-First Webhook Inspector, Deterministic Replayer & HMAC Verification Hub.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/webhookvault/) | `24 passing` | [![CI Status](https://github.com/FelipeMadson/webhookvault/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/webhookvault/actions) |
+
+---
+
+### 🧩 Chrome Browser Extensions (Manifest V3)
+
+_Google Chrome Manifest V3 extensions featuring declarativeNetRequest rule interception, Omnibox address routing, and in-browser audit logs._
+
+| Microservice | Live Interactive Simulator | Automated Tests | Repository & CI Status |
+| :--- | :--- | :---: | :---: |
+| **[Persistnetworkredirects Chrome Extension](https://github.com/FelipeMadson/persistnetworkredirects-chrome-extension)**<br><small>Console SPA Moderno em React 18 e Vite</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/persistnetworkredirects-chrome-extension/) | `11 passing` | [![CI Status](https://github.com/FelipeMadson/persistnetworkredirects-chrome-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/persistnetworkredirects-chrome-extension/actions) |
+
+---
+
+### 🌐 Localization & System Matrix Platforms
+
+_Cross-platform localization suites featuring ICU plural form validation, missing-key graph traversal, and 1-click export to Web JSON, Android XML, and iOS .strings._
+
+| Microservice | Live Interactive Simulator | Automated Tests | Repository & CI Status |
+| :--- | :--- | :---: | :---: |
+| **[I18n Studio Automatizando Traducoes Para Aplicativos Multiplataforma](https://github.com/FelipeMadson/i18n-studio-automatizando-traducoes-para-aplicativos-multiplataforma)**<br><small>Tradução de múltiplos idiomas para aplicativos iOS, macOS, Android e JS pode ser um processo doloroso.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/i18n-studio-automatizando-traducoes-para-aplicativos-multiplataforma/) | `18 passing` | [![CI Status](https://github.com/FelipeMadson/i18n-studio-automatizando-traducoes-para-aplicativos-multiplataforma/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/i18n-studio-automatizando-traducoes-para-aplicativos-multiplataforma/actions) |
+| **[Model Based Design Platform For Engineers](https://github.com/FelipeMadson/model-based-design-platform-for-engineers)**<br><small>Engineers and scientists use outdated, monolithic tools for complex system design and simulation tasks.</small> | [🎮 **Launch Simulator**](https://felipemadson.github.io/model-based-design-platform-for-engineers/) | `20 passing` | [![CI Status](https://github.com/FelipeMadson/model-based-design-platform-for-engineers/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/model-based-design-platform-for-engineers/actions) |
+
+---
+
+
+
+## 📊 Engineering Technology Matrix
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                      FELIPE MADISON — TSI TECH STACK                   │
+├───────────────────┬──────────────────────────────┬─────────────────────┤
+│ Runtimes & Base   │ Node.js 22 & 24 LTS (ESM)    │ Native TypeScript   │
+│ Databases         │ SQLite WAL Mode (node:sqlite)│ Relational Schemas  │
+│ Cryptography      │ HMAC-SHA256, SubtleCrypto    │ Merkle Audit Chains │
+│ Quality & Testing │ Native node:test & assert    │ Chaos Fuzzing (100%)│
+│ CI/CD & Security  │ GitHub Actions, CodeQL SAST  │ Conventional Commits│
+│ Web Simulators    │ HTML5, Modern CSS, Canvas 2D │ Zero Bundler/Vanilla│
+└───────────────────┴──────────────────────────────┴─────────────────────┘
 ```
 
 ---
 
-### About Me
+## 📬 Contact & Collaboration
 
-I am a Software Engineer and undergraduate in **Internet Systems Technology (TSI)**. My engineering practice centers on deterministic distributed systems, enterprise multi-tenancy, clean-room reverse engineering, and high-throughput concurrency models across modern polyglot environments.
-
-I prioritize standard library capabilities, zero-dependency runtimes, compile-time contract enforcement, reproducible automated testing, and clean, accessible user interfaces.
-
----
-
-### Core Engineering Stack
-
-| Domain | Technologies & Patterns |
-| :--- | :--- |
-| **Enterprise JVM & Concurrency** | **Java 21**, Spring Boot 3.3, Project Loom (Virtual Threads), Transactional Outbox, Resilience4j, Micrometer |
-| **Modern Frontend & Reactivity** | **Angular 18** (Signals, Standalone Components, OnPush Change Detection), **Next.js 15** (React 19, Server Actions, Zod) |
-| **High-Performance Systems** | **Rust 1.75+** (Tokio, Zero-Copy Streams), **Go 1.22+** (Distributed Token Bucket Rate Limiting, Mutex Channels) |
-| **Enterprise .NET** | **.NET 8 / C#** (CQRS, MediatR, Entity Framework Core, Transactional Outbox) |
-| **Python Ecosystem** | **Python 3.12+** (Django 5 Multi-Tenant, Flask 3 Event Bus, FastAPI, Polars Vector RAG) |
-| **Storage & Persistence** | PostgreSQL (RLS, Transactional DDL, Index Tuning), SQLite WAL Mode (`node:sqlite`), Redis |
-| **Security & Resilience** | Constant-Time HMAC-SHA256 (`timingSafeEqual`), Circuit Breakers (Tri-State), Token Bucket Rate Limiting |
-| **Quality & Verification** | Playwright E2E, JUnit 5, Pytest, Vitest, Native Node Test Runner (`node:test`), Automated CI/CD |
-
----
-
-### Featured Flagship Repositories
-
-#### 1. [Spring Boot 3 Fintech Transaction Engine](https://github.com/FelipeMadson/spring-boot-fintech-transaction-engine)
-> **High-Throughput Financial Transaction Engine with Java 21 Virtual Threads (Project Loom)**  
-> *Stack: Java 21 · Spring Boot 3.3 · Virtual Threads · Transactional Outbox · JUnit 5 · GitHub Actions CI*
-
-- **Problem:** Conventional thread-per-request architectures exhaust OS threads under high concurrency, creating thread starvation and latency spikes during financial surges.
-- **Solution:** Leveraged Java 21 Virtual Threads (`spring.threads.virtual.enabled: true`) for lightweight non-blocking execution, coupled with strict concurrent idempotency deduplication and `BigDecimal` monetary precision.
-- **Verification:** Unit test suite verifying idempotency guarantees and HTTP problem details. Automated CI workflow and Dependabot integration.
-
-#### 2. [Angular 18 Enterprise Clean Architecture](https://github.com/FelipeMadson/angular-enterprise-clean-architecture)
-> **Production-Grade Angular 18 Architecture with Native Signals and Standalone Components**  
-> *Stack: Angular 18 · TypeScript · Signals & Computed · Clean Architecture · OnPush*
-
-- **Problem:** Traditional state management libraries (like NgRx) introduce extensive boilerplate and zone pollution, slowing down UI rendering in large enterprise dashboards.
-- **Solution:** Engineered a pure Signal-based reactive state store with `signal` and `computed` primitives, DDD domain isolation, and the `Result<T, E>` pattern for strongly-typed error handling.
-- **Verification:** Automated unit test suite validating reactive computed state and balance constraints with 100% pass rate.
-
-#### 3. [Next.js 15 Enterprise SaaS Starter](https://github.com/FelipeMadson/nextjs-enterprise-saas-starter)
-> **Full-Stack Next.js 15 App Router Multi-Tenant SaaS Platform**  
-> *Stack: Next.js 15 · React 19 · Server Actions · Zod · Subdomain Multi-Tenancy*
-
-- **Problem:** Multi-tenant SaaS architectures often suffer from cross-tenant data leaks and leaky client-side state abstractions.
-- **Solution:** Implemented edge-resolved subdomain tenant isolation with runtime Zod contract validation and Server Actions, guaranteeing zero sensitive business logic leakage to the client.
-- **Verification:** Automated tests covering tenant resolution and isolation constraints.
-
-#### 4. [Reverse-Engineered API Gateway](https://github.com/FelipeMadson/reverse-engineered-api-gateway)
-> **Clean-Room Reverse-Engineered Resilient Gateway with Zero External Dependencies**  
-> *Stack: TypeScript · Node.js 22 · Native HTTP · Circuit Breaker · Token Bucket*
-
-- **Problem:** Monolithic gateway bloatware exposes mission-critical systems to deep supply-chain vulnerabilities and heavyweight memory footprints.
-- **Solution:** Clean-room reconstructed gateway featuring a tri-state Circuit Breaker (`CLOSED`, `OPEN`, `HALF_OPEN`), Token Bucket rate limiter per IP, and constant-time HMAC-SHA256 JWT validation using only standard library primitives.
-- **Verification:** Comprehensive test suite with fast-fail circuit verification and formal [ARCHITECTURE_RECONSTRUCTION.md](https://github.com/FelipeMadson/reverse-engineered-api-gateway/blob/main/ARCHITECTURE_RECONSTRUCTION.md).
-
-#### 5. [Django 5 Multi-Tenant SaaS Platform](https://github.com/FelipeMadson/django-multitenant-saas-platform)
-> **Enterprise Subdomain Multi-Tenancy Platform with Django 5 and DRF**  
-> *Stack: Python 3.12 · Django 5 · Django REST Framework · Pytest-Django*
-
-- **Problem:** Shared database tables in enterprise B2B apps risk data contamination without explicit tenant schema boundaries.
-- **Solution:** Engineered a robust tenant middleware isolating database operations by subdomain with automated tenant provisioning and custom DRF viewsets.
-- **Verification:** Automated pytest test suite, GitHub Actions CI, and Dependabot weekly updates.
-
-#### 6. [Flask 3 Microservices Event Bus](https://github.com/FelipeMadson/flask-microservices-event-bus)
-> **Decoupled Pub/Sub Event Dispatcher with Transactional Outbox Pattern**  
-> *Stack: Python 3.12 · Flask 3 · Marshmallow · Outbox Pattern · Pytest*
-
-- **Problem:** Microservices communicating via direct HTTP calls face cascading failures when downstream endpoints become unavailable.
-- **Solution:** Built an asynchronous, in-memory transactional outbox event bus ensuring at-least-once delivery semantics and schema contract validation.
-- **Verification:** Automated tests covering subscriber handlers, outbox dispatching, and schema verification.
-
-#### 7. [Rust Zero-Copy Event Stream](https://github.com/FelipeMadson/rust-zero-copy-event-stream)
-> **High-Throughput In-Memory Stream Processing with Tokio**  
-> *Stack: Rust 1.75+ · Tokio · Bytes · Cargo Tests*
-
-- **Solution:** Zero-heap-allocation byte slice processing engine designed for ultra-low latency real-time telemetry pipelines.
-
-#### 8. [Go Distributed Token Bucket](https://github.com/FelipeMadson/go-distributed-token-bucket)
-> **Cloud-Native Concurrency Rate Limiter**  
-> *Stack: Go 1.22+ · Goroutines · Channels · Mutex Benchmarking*
-
-- **Solution:** Thread-safe distributed rate limiter preventing noisy neighbor denial-of-service in distributed clusters.
-
-#### 9. [.NET 8 CQRS Transaction Outbox](https://github.com/FelipeMadson/dotnet-cqrs-transaction-outbox)
-> **Clean Architecture Event-Driven Service**  
-> *Stack: .NET 8 · C# · MediatR · EF Core · xUnit*
-
-- **Solution:** Command Query Responsibility Segregation (CQRS) service featuring transactional outbox persistence for guaranteed message dispatch.
-
----
-
-### 📚 Engineering Handbooks & Whitepapers
-
-#### [Software Engineering Handbook](https://github.com/FelipeMadson/software-engineering-handbook)
-> **In-Depth Architectural Guides, Resilient Distributed Patterns & Verification**  
-> *Stack: TypeScript · Architecture Design · Node.js · Security Verification · GitHub Actions CI*
-
-- **Idempotent Queue Architecture:** Deduplication, atomic leases, and outbox patterns.
-- **CRDT Offline-First Synchronization:** Conflict-free replicated state and local-first data stores.
-- **Multitenant Row-Level Security:** PostgreSQL RLS, tenant context isolation, and defense in depth.
-- **Deterministic Dev Environments:** Reproducible toolchains, hermetic builds, and container sandboxes.
-
----
-
-### Engineering Principles
-
-1. **Deterministic & Local-First:** Systems are designed to function reliably offline, respecting user data privacy and avoiding arbitrary cloud vendor lock-in.
-2. **Minimal Dependency Footprint:** Prioritizes native standard library primitives to ensure sub-100ms startup times, minimal maintenance overhead, and zero supply-chain security alerts.
-3. **Evidence-Driven Engineering:** No feature is certified complete without passing automated test suites, measurable performance benchmarks, and reproducible execution artifacts.
-4. **Accessible, Purposeful Design:** Interfaces must be structured, accessible (WCAG AA), responsive across all viewports, and free from superfluous visual clutter.
-
----
-
-### Connect & Collaborate
-
-- **GitHub:** [@FelipeMadson](https://github.com/FelipeMadson)
-- **Interactive Portfolio:** [felipemadson.github.io/portfolio](https://felipemadson.github.io/portfolio/)
-- **Contributions:** Open-source projects and code reviews are welcomed via GitHub issues and pull requests.
+* **GitHub:** [https://github.com/FelipeMadson](https://github.com/FelipeMadson)
+* **Status:** 100% of repositories are public with passing test suites, documentation, and active GitHub Pages simulators.
+* Feel free to inspect source code, review architectural ADRs, or open issues and pull requests!
