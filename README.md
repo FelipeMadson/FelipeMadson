@@ -1,16 +1,33 @@
 # Felipe Madison
 
-**Internet Systems Engineering · Local-First Architecture · Systems Tooling**
+**Internet Systems Engineering · Distributed Architectures · High-Resilience Systems**
 
-[Portfolio](https://felipemadson.github.io/portfolio/) · [Versão em Português](README.pt-BR.md) · [GitHub Profile](https://github.com/FelipeMadson)
+[Interactive Portfolio](https://felipemadson.github.io/portfolio/) · [Versão em Português](README.pt-BR.md) · [GitHub Profile](https://github.com/FelipeMadson)
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                          FELIPE MADISON — SYSTEMS ARCHITECTURE                         │
+│                         65+ Production Repositories on GitHub                          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+                                            │
+     ┌───────────────────┬──────────────────┼──────────────────┬──────────────────┐
+     ▼                   ▼                  ▼                  ▼                  ▼
+┌───────────┐      ┌───────────┐      ┌───────────┐      ┌───────────┐      ┌───────────┐
+│ JAVA 21   │      │ ANGULAR 18│      │ NEXT.JS 15│      │ RUST / GO │      │ PYTHON    │
+│ ───────── │      │ ───────── │      │ ───────── │      │ ───────── │      │ ───────── │
+│ Spring 3  │      │ Signals   │      │ React 19  │      │ Zero-Copy │      │ Django 5  │
+│ Loom Thr. │      │ DDD Clean │      │ Actions   │      │ TokenBkt  │      │ Flask 3   │
+│ Outbox    │      │ Result<T> │      │ Multi-Ten │      │ Low-Lat.  │      │ Polars RAG│
+└───────────┘      └───────────┘      └───────────┘      └───────────┘      └───────────┘
+```
 
 ---
 
 ### About Me
 
-I am a Software Engineer and undergraduate student in **Internet Systems Technology (TSI)**. My work focuses on building deterministic developer tools, local-first architectures, resilient distributed queue systems, and private AI workflows.
+I am a Software Engineer and undergraduate in **Internet Systems Technology (TSI)**. My engineering practice centers on deterministic distributed systems, enterprise multi-tenancy, clean-room reverse engineering, and high-throughput concurrency models across modern polyglot environments.
 
-I prioritize standard library capabilities, zero-dependency runtimes, strict typing, reproducible automated testing, and clean, accessible user interfaces.
+I prioritize standard library capabilities, zero-dependency runtimes, compile-time contract enforcement, reproducible automated testing, and clean, accessible user interfaces.
 
 ---
 
@@ -18,87 +35,104 @@ I prioritize standard library capabilities, zero-dependency runtimes, strict typ
 
 | Domain | Technologies & Patterns |
 | :--- | :--- |
-| **Languages & Runtimes** | Node.js 22/24 (Native ESM), TypeScript, Python 3.12+, SQL |
-| **Frontend Architecture** | Angular 22 (Signals, Standalone Components, OnPush Change Detection), Semantic HTML5, Modern Responsive CSS, WCAG AA Accessibility |
-| **Backend & Services** | FastAPI, Native Node.js HTTP/Streams, RESTful APIs, Structured Event Buses |
-| **Persistence & Storage** | PostgreSQL (Relational Modeling, Constraints, Migrations), SQLite WAL Mode (`node:sqlite`), In-Memory Outboxes |
-| **Security & Resilience** | Constant-Time HMAC-SHA256 (`timingSafeEqual`), Token-Bucket Rate Limiting, Replay Attack Guards, Dead-Letter Queues (DLQ), Circuit Breakers |
-| **Quality & Verification** | Playwright E2E (Multi-Viewport Testing), Pytest, Vitest, Native Node Test Runner (`node:test`), Deterministic Container Sandboxes |
+| **Enterprise JVM & Concurrency** | **Java 21**, Spring Boot 3.3, Project Loom (Virtual Threads), Transactional Outbox, Resilience4j, Micrometer |
+| **Modern Frontend & Reactivity** | **Angular 18** (Signals, Standalone Components, OnPush Change Detection), **Next.js 15** (React 19, Server Actions, Zod) |
+| **High-Performance Systems** | **Rust 1.75+** (Tokio, Zero-Copy Streams), **Go 1.22+** (Distributed Token Bucket Rate Limiting, Mutex Channels) |
+| **Enterprise .NET** | **.NET 8 / C#** (CQRS, MediatR, Entity Framework Core, Transactional Outbox) |
+| **Python Ecosystem** | **Python 3.12+** (Django 5 Multi-Tenant, Flask 3 Event Bus, FastAPI, Polars Vector RAG) |
+| **Storage & Persistence** | PostgreSQL (RLS, Transactional DDL, Index Tuning), SQLite WAL Mode (`node:sqlite`), Redis |
+| **Security & Resilience** | Constant-Time HMAC-SHA256 (`timingSafeEqual`), Circuit Breakers (Tri-State), Token Bucket Rate Limiting |
+| **Quality & Verification** | Playwright E2E, JUnit 5, Pytest, Vitest, Native Node Test Runner (`node:test`), Automated CI/CD |
 
 ---
 
-### Featured Flagship Projects
+### Featured Flagship Repositories
 
-#### 1. [QueueGuard Platform](https://github.com/FelipeMadson/mitigacao-processamento-duplicado-filas-assincronas)
-> **Fullstack Idempotent Asynchronous Queue Processing Platform**  
-> *Stack: Angular 22 · Signals · FastAPI · PostgreSQL · Playwright · GitHub Actions CI*
+#### 1. [Spring Boot 3 Fintech Transaction Engine](https://github.com/FelipeMadson/spring-boot-fintech-transaction-engine)
+> **High-Throughput Financial Transaction Engine with Java 21 Virtual Threads (Project Loom)**  
+> *Stack: Java 21 · Spring Boot 3.3 · Virtual Threads · Transactional Outbox · JUnit 5 · GitHub Actions CI*
 
-- **Problem:** Asynchronous message brokers frequently deliver duplicates during network partitions or retries, causing double writes, lost leases, and inconsistent state.
-- **Solution:** Implemented a fullstack deduplication architecture with atomic lease acquisition, PostgreSQL transactional migration schema, and a real-time reactive Angular 22 dashboard.
-- **Verification:** Verified through unit, acceptance, and Playwright multi-viewport tests (390px, 768px, 1440px) with database restart persistence and automated CI pipeline.
+- **Problem:** Conventional thread-per-request architectures exhaust OS threads under high concurrency, creating thread starvation and latency spikes during financial surges.
+- **Solution:** Leveraged Java 21 Virtual Threads (`spring.threads.virtual.enabled: true`) for lightweight non-blocking execution, coupled with strict concurrent idempotency deduplication and `BigDecimal` monetary precision.
+- **Verification:** Unit test suite verifying idempotency guarantees and HTTP problem details. Automated CI workflow and Dependabot integration.
 
-#### 2. [WebhookVault](https://github.com/FelipeMadson/webhookvault)
-> **Local-First Cryptographic Webhook Gateway & Replay Engine**  
-> *Stack: Node.js (Native) · TypeScript · SQLite WAL · Timing-Safe Cryptography*
+#### 2. [Angular 18 Enterprise Clean Architecture](https://github.com/FelipeMadson/angular-enterprise-clean-architecture)
+> **Production-Grade Angular 18 Architecture with Native Signals and Standalone Components**  
+> *Stack: Angular 18 · TypeScript · Signals & Computed · Clean Architecture · OnPush*
 
-- **Problem:** Debugging webhooks from providers like GitHub, Stripe, or Shopify exposes local endpoints to timing attacks and replay vulnerabilities.
-- **Solution:** Built an offline-capable gateway featuring constant-time HMAC-SHA256 signature verification (`timingSafeEqual`), automatic payload replay with recalculated signatures and fresh timestamps, and an embedded zero-dependency web dashboard.
-- **Verification:** 22 automated deterministic tests with `node:test` and crash-recovery WAL validation.
+- **Problem:** Traditional state management libraries (like NgRx) introduce extensive boilerplate and zone pollution, slowing down UI rendering in large enterprise dashboards.
+- **Solution:** Engineered a pure Signal-based reactive state store with `signal` and `computed` primitives, DDD domain isolation, and the `Result<T, E>` pattern for strongly-typed error handling.
+- **Verification:** Automated unit test suite validating reactive computed state and balance constraints with 100% pass rate.
 
-#### 3. [CloudPulse Multi-Tenant Analytics](https://github.com/FelipeMadson/cloudpulse-multi-tenant-analytics)
-> **Local-First Event Analytics Engine with Quota Enforcement**  
-> *Stack: Node.js 22 · SQLite WAL · Prometheus Metrics · Token Bucket*
+#### 3. [Next.js 15 Enterprise SaaS Starter](https://github.com/FelipeMadson/nextjs-enterprise-saas-starter)
+> **Full-Stack Next.js 15 App Router Multi-Tenant SaaS Platform**  
+> *Stack: Next.js 15 · React 19 · Server Actions · Zod · Subdomain Multi-Tenancy*
 
-- **Problem:** Multi-tenant SaaS instrumentation often introduces heavy third-party vendor lock-in and risks cross-tenant telemetry leaks.
-- **Solution:** Engineered a lightweight, local-first analytics engine with strict tenant isolation, token-bucket burst rate limiting, HMAC-signed outbound dispatching, and native Prometheus metrics exporters.
-- **Verification:** 23 automated tests verifying strict multi-tenancy isolation and non-blocking sub-millisecond persistence.
+- **Problem:** Multi-tenant SaaS architectures often suffer from cross-tenant data leaks and leaky client-side state abstractions.
+- **Solution:** Implemented edge-resolved subdomain tenant isolation with runtime Zod contract validation and Server Actions, guaranteeing zero sensitive business logic leakage to the client.
+- **Verification:** Automated tests covering tenant resolution and isolation constraints.
 
-#### 4. [EnvDoctor](https://github.com/FelipeMadson/envdoctor)
-> **Sub-Second Developer Environment Diagnostics & Audit CLI**  
-> *Stack: Node.js (Native ESM) · Cross-Platform (Ubuntu & Windows)*
+#### 4. [Reverse-Engineered API Gateway](https://github.com/FelipeMadson/reverse-engineered-api-gateway)
+> **Clean-Room Reverse-Engineered Resilient Gateway with Zero External Dependencies**  
+> *Stack: TypeScript · Node.js 22 · Native HTTP · Circuit Breaker · Token Bucket*
 
-- **Problem:** Environment drift, misconfigured runtime versions, port conflicts, and uncommitted secrets in `.env` files cause recurring onboarding failures.
-- **Solution:** Developed a deterministic diagnostic CLI providing sub-60ms concurrent audits of runtimes, open TCP listening ports, and strict credential leak prevention.
-- **Verification:** Cross-platform GitHub Actions CI matrix running on Ubuntu and Windows with Node.js 22 and 24.
+- **Problem:** Monolithic gateway bloatware exposes mission-critical systems to deep supply-chain vulnerabilities and heavyweight memory footprints.
+- **Solution:** Clean-room reconstructed gateway featuring a tri-state Circuit Breaker (`CLOSED`, `OPEN`, `HALF_OPEN`), Token Bucket rate limiter per IP, and constant-time HMAC-SHA256 JWT validation using only standard library primitives.
+- **Verification:** Comprehensive test suite with fast-fail circuit verification and formal [ARCHITECTURE_RECONSTRUCTION.md](https://github.com/FelipeMadson/reverse-engineered-api-gateway/blob/main/ARCHITECTURE_RECONSTRUCTION.md).
 
-#### 5. [CLI Cursor Manager](https://github.com/FelipeMadson/cli-cursor-manager)
-> **ANSI Escape and Webterm Cursor Coordination Engine**  
-> *Stack: Node.js (Native) · Zero Runtime Dependencies · Terminal Standards*
+#### 5. [Django 5 Multi-Tenant SaaS Platform](https://github.com/FelipeMadson/django-multitenant-saas-platform)
+> **Enterprise Subdomain Multi-Tenancy Platform with Django 5 and DRF**  
+> *Stack: Python 3.12 · Django 5 · Django REST Framework · Pytest-Django*
 
-- **Problem:** Inconsistent cursor positioning and ANSI sequences across terminal emulators, xterm.js, and web terminals lead to visual artifacts and broken interactive prompts.
-- **Solution:** Standardized cursor state management and animation frames with complete ANSI escape compatibility and zero external runtime dependencies.
-- **Verification:** 29 automated tests verifying cross-terminal escape standard conformance.
+- **Problem:** Shared database tables in enterprise B2B apps risk data contamination without explicit tenant schema boundaries.
+- **Solution:** Engineered a robust tenant middleware isolating database operations by subdomain with automated tenant provisioning and custom DRF viewsets.
+- **Verification:** Automated pytest test suite, GitHub Actions CI, and Dependabot weekly updates.
 
-#### 6. [I18n Studio](https://github.com/FelipeMadson/i18n-studio-automatizando-traducoes-para-aplicativos-multiplataforma)
-> **Multi-Platform Automated Translation Pipeline**  
-> *Stack: Node.js · TypeScript · Local Schema Validation*
+#### 6. [Flask 3 Microservices Event Bus](https://github.com/FelipeMadson/flask-microservices-event-bus)
+> **Decoupled Pub/Sub Event Dispatcher with Transactional Outbox Pattern**  
+> *Stack: Python 3.12 · Flask 3 · Marshmallow · Outbox Pattern · Pytest*
 
-- **Problem:** Managing localization dictionaries across web, mobile, and server templates introduces syntax discrepancies and missing translation keys.
-- **Solution:** Created an automated AST-based translation orchestrator that validates keys, detects collisions, and maintains clean schema parity across target platforms.
-- **Verification:** 23 automated tests covering key resolution and structure validation.
+- **Problem:** Microservices communicating via direct HTTP calls face cascading failures when downstream endpoints become unavailable.
+- **Solution:** Built an asynchronous, in-memory transactional outbox event bus ensuring at-least-once delivery semantics and schema contract validation.
+- **Verification:** Automated tests covering subscriber handlers, outbox dispatching, and schema verification.
+
+#### 7. [Rust Zero-Copy Event Stream](https://github.com/FelipeMadson/rust-zero-copy-event-stream)
+> **High-Throughput In-Memory Stream Processing with Tokio**  
+> *Stack: Rust 1.75+ · Tokio · Bytes · Cargo Tests*
+
+- **Solution:** Zero-heap-allocation byte slice processing engine designed for ultra-low latency real-time telemetry pipelines.
+
+#### 8. [Go Distributed Token Bucket](https://github.com/FelipeMadson/go-distributed-token-bucket)
+> **Cloud-Native Concurrency Rate Limiter**  
+> *Stack: Go 1.22+ · Goroutines · Channels · Mutex Benchmarking*
+
+- **Solution:** Thread-safe distributed rate limiter preventing noisy neighbor denial-of-service in distributed clusters.
+
+#### 9. [.NET 8 CQRS Transaction Outbox](https://github.com/FelipeMadson/dotnet-cqrs-transaction-outbox)
+> **Clean Architecture Event-Driven Service**  
+> *Stack: .NET 8 · C# · MediatR · EF Core · xUnit*
+
+- **Solution:** Command Query Responsibility Segregation (CQRS) service featuring transactional outbox persistence for guaranteed message dispatch.
 
 ---
 
-
-### 📚 Engineering Handbooks & Architecture Manuals
+### 📚 Engineering Handbooks & Whitepapers
 
 #### [Software Engineering Handbook](https://github.com/FelipeMadson/software-engineering-handbook)
 > **In-Depth Architectural Guides, Resilient Distributed Patterns & Verification**  
 > *Stack: TypeScript · Architecture Design · Node.js · Security Verification · GitHub Actions CI*
 
-A published series of comprehensive software engineering handbooks covering production-critical architecture and verified implementations:
 - **Idempotent Queue Architecture:** Deduplication, atomic leases, and outbox patterns.
 - **CRDT Offline-First Synchronization:** Conflict-free replicated state and local-first data stores.
 - **Multitenant Row-Level Security:** PostgreSQL RLS, tenant context isolation, and defense in depth.
 - **Deterministic Dev Environments:** Reproducible toolchains, hermetic builds, and container sandboxes.
-- **Secret Isolation in CI/CD:** Memory-safe vault integrations and leak prevention pipelines.
 
 ---
 
 ### Engineering Principles
 
-1. **Deterministic & Local-First:** Systems are designed to function reliably offline, respecting user data privacy and avoiding arbitrary cloud lock-in.
-2. **Minimal Dependency Footprint:** I favor the native Node.js standard library and language primitives to ensure sub-100ms startup times, minimal maintenance overhead, and zero supply-chain security alerts.
+1. **Deterministic & Local-First:** Systems are designed to function reliably offline, respecting user data privacy and avoiding arbitrary cloud vendor lock-in.
+2. **Minimal Dependency Footprint:** Prioritizes native standard library primitives to ensure sub-100ms startup times, minimal maintenance overhead, and zero supply-chain security alerts.
 3. **Evidence-Driven Engineering:** No feature is certified complete without passing automated test suites, measurable performance benchmarks, and reproducible execution artifacts.
 4. **Accessible, Purposeful Design:** Interfaces must be structured, accessible (WCAG AA), responsive across all viewports, and free from superfluous visual clutter.
 
